@@ -1,0 +1,38 @@
+.item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 88%;
+  background-color: white;
+  border: 1px solid lightgray;
+  padding: 15px 30px;
+  border-radius: 15px;
+  box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+}
+
+.status {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  background-color: red;
+  border: 1px solid lightgray;
+}
+
+.on {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  border: 1px solid lightgray;
+  background-color: green;
+}
+
+.avatar {
+  width: 20%;
+}
+
+.name {
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+}
